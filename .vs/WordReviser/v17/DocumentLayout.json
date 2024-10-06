@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iccho\\WordReviser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|c:\\users\\iccho\\wordreviser\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|c:\\users\\iccho\\wordreviser\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|c:\\users\\iccho\\wordreviser\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|c:\\users\\iccho\\wordreviser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|c:\\users\\iccho\\wordreviser\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|solutionrelative:wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|c:\\users\\iccho\\wordreviser\\components\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|solutionrelative:components\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|c:\\users\\iccho\\wordreviser\\components\\services\\directorymanageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|solutionrelative:components\\services\\directorymanageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|c:\\users\\iccho\\wordreviser\\components\\services\\htmlmanageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|solutionrelative:components\\services\\htmlmanageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|c:\\users\\iccho\\wordreviser\\components\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6918227-EF1F-489C-A35E-60133CB762B3}|WordReviser.csproj|solutionrelative:components\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\iccho\\.nuget\\packages\\select.htmltopdf.netcore\\24.1.0\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\iccho\\WordReviser\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\iccho\\WordReviser\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T06:13:08.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\iccho\\WordReviser\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\iccho\\WordReviser\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T11:46:29.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\iccho\\WordReviser\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\iccho\\WordReviser\\Components\\App.razor*",
+              "RelativeToolTip": "Components\\App.razor*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T07:03:23.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iccho\\WordReviser\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\iccho\\WordReviser\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T06:48:35.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\iccho\\WordReviser\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\iccho\\WordReviser\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "wwwroot\\js\\main.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-18T05:58:45.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HtmlManageService.cs",
+              "DocumentMoniker": "C:\\Users\\iccho\\WordReviser\\Components\\Services\\HtmlManageService.cs",
+              "RelativeDocumentMoniker": "Components\\Services\\HtmlManageService.cs",
+              "ToolTip": "C:\\Users\\iccho\\WordReviser\\Components\\Services\\HtmlManageService.cs",
+              "RelativeToolTip": "Components\\Services\\HtmlManageService.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAcwFYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:39:09.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DirectoryManageService.cs",
+              "DocumentMoniker": "C:\\Users\\iccho\\WordReviser\\Components\\Services\\DirectoryManageService.cs",
+              "RelativeDocumentMoniker": "Components\\Services\\DirectoryManageService.cs",
+              "ToolTip": "C:\\Users\\iccho\\WordReviser\\Components\\Services\\DirectoryManageService.cs",
+              "RelativeToolTip": "Components\\Services\\DirectoryManageService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwDEAAACSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T11:27:15.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileUploadService.cs",
+              "DocumentMoniker": "C:\\Users\\iccho\\WordReviser\\Components\\Services\\FileUploadService.cs",
+              "RelativeDocumentMoniker": "Components\\Services\\FileUploadService.cs",
+              "ToolTip": "C:\\Users\\iccho\\WordReviser\\Components\\Services\\FileUploadService.cs",
+              "RelativeToolTip": "Components\\Services\\FileUploadService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T11:10:39.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.razor.css",
+              "DocumentMoniker": "C:\\Users\\iccho\\WordReviser\\Components\\Pages\\Home.razor.css",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor.css",
+              "ToolTip": "C:\\Users\\iccho\\WordReviser\\Components\\Pages\\Home.razor.css",
+              "RelativeToolTip": "Components\\Pages\\Home.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-16T08:40:55.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\iccho\\.nuget\\packages\\select.htmltopdf.netcore\\24.1.0\\readme.txt",
+              "RelativeDocumentMoniker": "..\\.nuget\\packages\\select.htmltopdf.netcore\\24.1.0\\readme.txt",
+              "ToolTip": "C:\\Users\\iccho\\.nuget\\packages\\select.htmltopdf.netcore\\24.1.0\\readme.txt",
+              "RelativeToolTip": "..\\.nuget\\packages\\select.htmltopdf.netcore\\24.1.0\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-16T11:46:30.818Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

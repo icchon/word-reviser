@@ -1,0 +1,13 @@
+﻿body {
+}
+
+.flex-box {
+    display: flex;
+}
+
+.insert {
+    color: green;
+}
+.delete {
+    color: red;
+}

@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WordReviser.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WordReviser.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\Upload\\A1高周波.docx",
+      "PackagePath": "staticwebassets\\Upload\\A1高周波.docx"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\Upload\\A1高周波.html",
+      "PackagePath": "staticwebassets\\Upload\\A1高周波.html"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\Upload\\A1高周波.pdf",
+      "PackagePath": "staticwebassets\\Upload\\A1高周波.pdf"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\Upload\\A8_電磁波.docx",
+      "PackagePath": "staticwebassets\\Upload\\A8_電磁波.docx"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\Upload\\A8_電磁波.html",
+      "PackagePath": "staticwebassets\\Upload\\A8_電磁波.html"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\Upload\\A8_電磁波.pdf",
+      "PackagePath": "staticwebassets\\Upload\\A8_電磁波.pdf"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\Upload\\５４行目サンドボックス.docx",
+      "PackagePath": "staticwebassets\\Upload\\５４行目サンドボックス.docx"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\Upload\\５４行目サンドボックス.html",
+      "PackagePath": "staticwebassets\\Upload\\５４行目サンドボックス.html"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\Upload\\５４行目サンドボックス.pdf",
+      "PackagePath": "staticwebassets\\Upload\\５４行目サンドボックス.pdf"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\iccho\\WordReviser\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WordReviser.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WordReviser.props",
+      "PackagePath": "build\\WordReviser.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WordReviser.props",
+      "PackagePath": "buildMultiTargeting\\WordReviser.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WordReviser.props",
+      "PackagePath": "buildTransitive\\WordReviser.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

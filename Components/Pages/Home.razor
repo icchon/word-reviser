@@ -1,0 +1,136 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+@inject IFileUploadService fileUploadService
+@inject IDirectoryManageService directoryManageService
+@inject IBlobService BlobService
+@inject IJSRuntime JS
+@inject IHtmlManageService htmlManageService
+@inject ITextReviseService textReviseService
+
+<PageTitle>Home</PageTitle>
+
+<MudFileUpload T="IBrowserFile" Accept=".docx" FilesChanged="UploadFileAsync" >
+<ActivatorContent>
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" StartIcon="@Icons.Material.Filled.CloudUpload" FullWidth=true>
+        Upload File
+    </MudButton>
+</ActivatorContent>
+</MudFileUpload>
+
+<MudDivider/>
+
+<MudButton OnClick="DownloadFileFromStream" Variant="Variant.Filled" Color="Color.Primary" StartIcon="@Icons.Material.Filled.FileDownload" FullWidth=true>
+    Download File
+</MudButton>
+
+<MudText>行数 : @htmlManageService.Sentences.Count</MudText>
+
+
+<SfPdfViewer ID="pdfviewer" DocumentPath="C:\Users\iccho\Downloads\スペイン語振り返りレポート１Q.pdf" Width="1060px" Height="500px" ServiceUrl="https://ej2services.syncfusion.com/production/web-services/api/pdfviewer"></SfPdfViewer>
+
+<div class="flex-box">
+    <div>
+        @if (htmlManageService.Sentences.Count > 0)
+        {
+            <MudCard>
+                @foreach (string sentence in htmlManageService.Sentences)
+                {
+                    @if (!UtilsService.JudgeIsInline(sentence))
+                    {
+                        <div>@sentence</div>
+                    }
+                    <MudDivider />
+                }
+            </MudCard>
+        }
+    </div>
+    <div>
+        @if (textReviseService.Diffs.Count > 0)
+        {
+            <MudCard>
+                @foreach(List<Diff> diffs in textReviseService.Diffs)
+                {
+                    foreach(Diff diff in diffs)
+                    {
+                        (Operation operation, string word) = (diff.operation, diff.text);
+                        switch (operation)
+                        {
+                            case Operation.INSERT:
+                                <div class="insert">@word</div>
+                                break;
+                        
+                            case Operation.EQUAL:
+                                <div>@word</div>
+                                break;
+
+                            case Operation.DELETE: 
+                                <div class="delete">@word</div>
+                                break;
+                        }
+                    }
+                    <MudDivider />
+                }
+            </MudCard>
+        }
+    </div>
+</div>
+
+
+@code {
+    private int test = 10;
+    private Stream GetFileStream()
+    {
+        string path = directoryManageService.PreDocxPath;
+        FileStream fs = File.OpenRead(path);
+        return fs;
+    }
+
+    private async Task DownloadFileFromStream()
+    {
+        try
+        {
+            await PandocInstance.Convert<HtmlIn, DocxOut>(directoryManageService.PreHtmlPath, directoryManageService.PostDocxPath);
+            Debug.WriteLine($"Succeed to create Docx");
+
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine($"Failed to create Docx, Error : {ex.Message}");
+        }
+
+        Stream fileStream = GetFileStream();
+        string fileName = Path.GetFileName(directoryManageService.PostDocxPath);
+
+        using var streamRef = new DotNetStreamReference(stream: fileStream);
+
+        await JS.InvokeVoidAsync("downloadFileFromStream", fileName, streamRef);
+    }
+
+    private async Task UploadFileAsync(IBrowserFile file)
+    {
+        try
+        {
+            directoryManageService.PreDocxPath = await fileUploadService.UploadAsync(file);
+            Debug.WriteLine("Succeed to Upload Docx");
+
+        }catch(Exception ex)
+        {
+            Debug.WriteLine($"Failed to Upload Docx, Error : {ex.Message} ");
+        }
+
+        await htmlManageService.Docx2HtmlAsync(directoryManageService.PreDocxPath, directoryManageService.PreHtmlPath);
+        htmlManageService.Html2Pdf(directoryManageService.PreHtmlPath, directoryManageService.PrePdfPath);
+    }
+
+    static byte[] byteArray = null;
+    static string base64String = String.Empty;
+    public string DocumentPath = @"C:\Users\iccho\Downloads\スペイン語振り返りレポート１Q.pdf";
+
+    protected override  void OnInitialized()
+    {
+        byteArray = File.ReadAllBytes(@"C:\Users\iccho\Downloads\スペイン語振り返りレポート１Q.pdf");
+        base64String = Convert.ToBase64String(byteArray);
+        //DocumentPath = "data:application/pdf,base64," + base64String;
+    }
+}
