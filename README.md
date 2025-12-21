@@ -3,7 +3,7 @@
 
 <p align="center">Blazor Serverベースのword校正Webアプリケーション</p>
 
-<p align="center"><a href="./LICENSE"><img src="https://img.shields.io/github/license/icchon/WordReviser" alt="license"></a></p>
+<p align="center"><a href="./LICENSE"><img src="https://img.shields.io/github/license/icchon/word-reviser" alt="license"></a></p>
 
 <br>
 
